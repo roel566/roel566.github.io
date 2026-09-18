@@ -19,6 +19,22 @@ header{
     padding:30px;
 }
 
+header .knop{
+    display:inline-block;
+    background:white;
+    color:#d4001f;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+header .knop:hover{
+    background:black;
+    color:white;
+}
+
 section{
     max-width:1000px;
     margin:auto;
@@ -51,20 +67,6 @@ th, td{
     text-align:center;
 }
 
-.knop{
-    display:inline-block;
-    background:#d4001f;
-    color:white;
-    padding:10px 20px;
-    text-decoration:none;
-    border-radius:5px;
-    font-weight:bold;
-}
-
-.knop:hover{
-    background:black;
-}
-
 footer{
     background:black;
     color:white;
@@ -77,12 +79,17 @@ footer{
 <body>
 
 <header>
+
+    <a class="knop" href="index.html">← Terug naar homepagina</a>
+
     <h1>Het Binaire Stelsel</h1>
+
 </header>
 
 <section>
 
 <div class="card">
+
     <h2>Wat is het binaire stelsel?</h2>
 
     <p>
@@ -106,12 +113,30 @@ footer{
             <th>Decimaal</th>
             <th>Binair</th>
         </tr>
-        <tr><td>0</td><td>0</td></tr>
-        <tr><td>1</td><td>1</td></tr>
-        <tr><td>2</td><td>10</td></tr>
-        <tr><td>3</td><td>11</td></tr>
-        <tr><td>4</td><td>100</td></tr>
-        <tr><td>5</td><td>101</td></tr>
+        <tr>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>101</td>
+        </tr>
     </table>
 
     <h2>Waarom is het belangrijk?</h2>
@@ -128,10 +153,6 @@ footer{
         Een bit is de kleinste eenheid van informatie en kan alleen 0 of 1 zijn.
         Acht bits samen vormen één byte.
     </p>
-
-    <br>
-
-    <a class="knop" href="index.html">← Terug naar homepagina</a>
 
 </div>
 
