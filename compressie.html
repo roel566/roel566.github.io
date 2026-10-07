@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Compressie - Roel Stumpers</title>
+
+<style>
+
+/* Algemene opmaak van de pagina */
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:white;
+}
+
+/* Rode header bovenaan */
+header{
+    background:#d4001f;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+/* Zwarte navigatiebalk */
+nav{
+    background:black;
+    padding:15px;
+    text-align:center;
+}
+
+/* Links in het menu */
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+/* Kleur wanneer je met je muis over een link gaat */
+nav a:hover{
+    color:#d4001f;
+}
+
+/* Gebied waarin de tekst staat */
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:30px;
+}
+
+/* Grijze informatieblokken */
+.card{
+    background:#f4f4f4;
+    border-radius:10px;
+    padding:20px;
+    margin-bottom:20px;
+    box-shadow:0 0 10px lightgray;
+}
+
+/* Rode koppen */
+h2{
+    color:#d4001f;
+}
+
+/* Afbeeldingen */
+img{
+    display:block;
+    margin:20px auto;
+    max-width:400px;
+    border-radius:15px;
+}
+
+/* YouTube-video */
+iframe{
+    display:block;
+    margin:20px auto;
+    max-width:100%;
+}
+
+/* Knop terug naar home */
+.knop{
+    display:inline-block;
+    background:white;
+    color:#d4001f;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+/* Verandering van de knop */
+.knop:hover{
+    background:black;
+    color:white;
+}
+
+/* Footer */
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Header -->
+<header>
+
+<a href="index.html" class="knop">Terug naar homepagina</a>
+
+<h1>Compressie</h1>
+<p>Hoe bestanden kleiner worden gemaakt</p>
+
+</header>
+
+<!-- Menu -->
+<nav>
+    <a href="index.html">Home</a>
+    <a href="binairstelsel.html">Binair stelsel</a>
+    <a href="kleurmodellen.html">Kleurmodellen</a>
+    <a href="compressie.html">Compressie</a>
+    <a href="ai.html">AI</a>
+</nav>
+
+<section>
+
+<!-- Wat is compressie -->
+<div class="card">
+
+<h2>Wat is compressie?</h2>
+
+<p>
+Compressie betekent dat een bestand kleiner wordt gemaakt.
+Hierdoor neemt het bestand minder opslagruimte in en kan het sneller worden verstuurd via internet.
+Compressie wordt bijvoorbeeld gebruikt bij foto's, video's, muziek en documenten.
+</p>
+
+<p>
+Er zijn twee belangrijke soorten compressie: lossy compressie en lossless compressie.
+</p>
+
+</div>
+
+<!-- Lossy -->
+<div class="card">
+
+<h2>Lossy compressie</h2>
+
+<p>
+Bij lossy compressie wordt een deel van de informatie uit een bestand verwijderd.
+Hierdoor wordt het bestand veel kleiner, maar kan de kwaliteit iets minder worden.
+</p>
+
+<p>
+Een voorbeeld hiervan is een JPEG-afbeelding.
+Bij een JPEG-bestand wordt informatie verwijderd die mensen meestal minder goed kunnen zien.
+Daardoor kan een foto veel minder opslagruimte innemen.
+</p>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/JPEG_example_flower.jpg"
+alt="Voorbeeld van een JPEG-afbeelding">
+
+</div>
+
+<!-- Lossless -->
+<div class="card">
+
+<h2>Lossless compressie</h2>
+
+<p>
+Bij lossless compressie wordt de informatie op een andere manier opgeslagen zonder informatie weg te gooien.
+Na het uitpakken kan het bestand weer precies hetzelfde worden als voor de compressie.
+</p>
+
+<p>
+Een bekend voorbeeld is een ZIP-bestand.
+Ook PNG-afbeeldingen gebruiken een vorm van lossless compressie.
+</p>
+
+</div>
+
+<!-- Verschil -->
+<div class="card">
+
+<h2>Verschil tussen lossy en lossless</h2>
+
+<p>
+Bij lossy compressie wordt informatie verwijderd om een bestand kleiner te maken.
+Daardoor kan de kwaliteit minder worden.
+</p>
+
+<p>
+Bij lossless compressie wordt geen informatie verwijderd.
+Het bestand kan na het uitpakken volledig worden hersteld.
+</p>
+
+<table border="1" cellpadding="10" cellspacing="0">
+<tr>
+    <th>Lossy</th>
+    <th>Lossless</th>
+</tr>
+<tr>
+    <td>Informatie wordt verwijderd</td>
+    <td>Geen informatie wordt verwijderd</td>
+</tr>
+<tr>
+    <td>Kleiner bestand</td>
+    <td>Bestand is meestal iets groter</td>
+</tr>
+<tr>
+    <td>Kwaliteit kan minder worden</td>
+    <td>Kwaliteit blijft hetzelfde</td>
+</tr>
+<tr>
+    <td>Bijvoorbeeld JPEG</td>
+    <td>Bijvoorbeeld PNG en ZIP</td>
+</tr>
+</table>
+
+</div>
+
+<!-- Waarom compressie gebruiken -->
+<div class="card">
+
+<h2>Waarom gebruiken we compressie?</h2>
+
+<p>
+Compressie is handig omdat bestanden hierdoor minder opslagruimte innemen.
+Ook kunnen bestanden sneller via internet worden verstuurd.
+Dit is vooral handig bij grote foto's, video's en andere bestanden.
+</p>
+
+<p>
+Websites gebruiken bijvoorbeeld compressie om afbeeldingen kleiner te maken.
+Hierdoor kan een website sneller laden.
+</p>
+
+</div>
+
+<!-- Video -->
+<div class="card">
+
+<h2>Video over compressie</h2>
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/1VdLZf9k2Y8"
+title="Uitleg over compressie"
+allowfullscreen>
+</iframe>
+
+<p>
+Ik heb deze video gekozen omdat een video kan helpen om duidelijk te begrijpen
+wat compressie betekent en waarom bestanden worden gecomprimeerd.
+</p>
+
+</div>
+
+</section>
+
+<!-- Footer -->
+<footer>
+    © 2026 Website van Roel Stumpers
+</footer>
+
+</body>
+</html>
